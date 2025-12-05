@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Restaurant Management Application SE</string>
+
+    <string name="logout">Logout</string>
+    <string name="notifications">Notifications</string>
+    <string name="menu">Menu</string>
+    <string name="reservations">Reservations</string>
+    <string name="food_item">Food item image</string>
+
+    <string name="options">Options</string>
+    <string name="edit">Edit</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+
+    <string name="table">Table</string>
+    <string name="calendar">Calendar</string>
+    <string name="time">Time</string>
+    <string name="select_time">Select Time</string>
+    <string name="select_price">Select Price</string>
+    <string name="enter_table_number">Enter table number</string>
+    <string name="select_date">Select date</string>
+
+    <string name="reservation_successful">Reservation\nSuccessfully</string>
+    <string name="edit_reservation">Edit</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="cancel_reservation_title">Are you sure cancel reservation?</string>
+    <string name="cancel_warning">This action cannot be undone</string>
+    <string name="back">Back</string>
+    <string name="confirm">Confirm</string>
+
+    <string name="notification">Notification</string>
+    <string name="settings">Settings</string>
+    <string name="history">History</string>
+    <string name="the_reservation_for">The reservation for</string>
+    <string name="table_no_colon">Table No:</string>
+    <string name="date_colon">Date:</string>
+    <string name="time_colon">Time:</string>
+    <string name="successfully_made">Successfully made</string>
+</resources>

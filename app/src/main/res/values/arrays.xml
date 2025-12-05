@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Table numbers for spinner -->
+    <string-array name="table_numbers">
+        <item>Select Table</item>
+        <item>Table 01</item>
+        <item>Table 02</item>
+        <item>Table 03</item>
+        <item>Table 04</item>
+        <item>Table 05</item>
+        <item>Table 06</item>
+    </string-array>
+
+    <!-- Time slots for spinner -->
+    <string-array name="time_slots">
+        <item>Select Time</item>
+        <item>6:00 PM</item>
+        <item>7:00 PM</item>
+        <item>8:00 PM</item>
+        <item>9:00 PM</item>
+    </string-array>
+</resources>
