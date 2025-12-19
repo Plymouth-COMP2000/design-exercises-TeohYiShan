@@ -28,7 +28,7 @@
         android:id="@+id/usernameLabel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Username, Email or Phone Number"
+        android:text="Username"
         android:textColor="@android:color/black"
         android:textSize="16sp"
         android:layout_marginTop="40dp"

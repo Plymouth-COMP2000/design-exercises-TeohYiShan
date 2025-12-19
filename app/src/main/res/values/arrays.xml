@@ -9,14 +9,35 @@
         <item>Table 04</item>
         <item>Table 05</item>
         <item>Table 06</item>
+        <item>Table 07</item>
+        <item>Table 08</item>
     </string-array>
 
-    <!-- Time slots for spinner -->
+    <!-- Time slots for spinner (more realistic restaurant hours) -->
     <string-array name="time_slots">
         <item>Select Time</item>
+        <item>11:00 AM</item>
+        <item>12:00 PM</item>
+        <item>1:00 PM</item>
+        <item>2:00 PM</item>
+        <item>5:00 PM</item>
         <item>6:00 PM</item>
         <item>7:00 PM</item>
         <item>8:00 PM</item>
         <item>9:00 PM</item>
+        <item>10:00 PM</item>
     </string-array>
+
+    <!-- Table capacity mapping (optional, for programmatic use) -->
+    <integer-array name="table_capacities">
+        <item>0</item> <!-- Select Table -->
+        <item>4</item> <!-- Table 01 -->
+        <item>4</item> <!-- Table 02 -->
+        <item>6</item> <!-- Table 03 -->
+        <item>6</item> <!-- Table 04 -->
+        <item>8</item> <!-- Table 05 -->
+        <item>10</item> <!-- Table 06 -->
+        <item>2</item> <!-- Table 07 -->
+        <item>4</item> <!-- Table 08 -->
+    </integer-array>
 </resources>

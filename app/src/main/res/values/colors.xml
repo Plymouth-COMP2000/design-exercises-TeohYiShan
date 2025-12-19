@@ -23,4 +23,8 @@
     <color name="display_background">#F5F5F5</color>
     <color name="back_button_text">#2196F3</color>
     <color name="confirm_button_color">#F44336</color>
+    <color name="new_color">#2196F3</color>
+    <color name="warning_color">#FF9800</color>
+    <color name="error_color">#F44336</color>
+    <color name="info_color">#757575</color>
 </resources>

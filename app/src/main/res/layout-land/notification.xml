@@ -35,7 +35,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Notification"
+            android:text="@string/notification"
             android:textSize="24sp"
             android:textStyle="bold"
             android:textColor="@android:color/black"
@@ -67,6 +67,7 @@
         app:layout_constraintEnd_toEndOf="parent">
 
         <LinearLayout
+            android:id="@+id/notificationsContainer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
@@ -78,13 +79,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp"
-                android:text="History"
+                android:text="@string/history"
                 android:textColor="@android:color/black"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
             <!-- Notification Item 1 -->
             <androidx.cardview.widget.CardView
+                android:id="@+id/notificationCard1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
@@ -100,9 +102,10 @@
 
                     <!-- Notification Title -->
                     <TextView
+                        android:id="@+id/notificationMessage1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="The reservation for"
+                        android:text="@string/the_reservation_for"
                         android:textSize="16sp"
                         android:textColor="@android:color/black"
                         android:layout_marginBottom="12dp"/>
@@ -115,13 +118,15 @@
                         android:layout_marginBottom="8dp">
 
                         <TextView
+                            android:id="@+id/tableNoLabel1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Table No:"
+                            android:text="@string/table_no_colon"
                             android:textSize="14sp"
                             android:textColor="@android:color/darker_gray"/>
 
                         <TextView
+                            android:id="@+id/tableNoValue1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="02"
@@ -139,13 +144,15 @@
                         android:layout_marginBottom="8dp">
 
                         <TextView
+                            android:id="@+id/dateLabel1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Date:"
+                            android:text="@string/date_colon"
                             android:textSize="14sp"
                             android:textColor="@android:color/darker_gray"/>
 
                         <TextView
+                            android:id="@+id/dateValue1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="20/10/2025"
@@ -163,13 +170,15 @@
                         android:layout_marginBottom="12dp">
 
                         <TextView
+                            android:id="@+id/timeLabel1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Time:"
+                            android:text="@string/time_colon"
                             android:textSize="14sp"
                             android:textColor="@android:color/darker_gray"/>
 
                         <TextView
+                            android:id="@+id/timeValue1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="8:00pm"
@@ -179,11 +188,12 @@
                             android:layout_marginStart="8dp"/>
                     </LinearLayout>
 
-                    <!-- Success Status -->
+                    <!-- Status -->
                     <TextView
+                        android:id="@+id/status1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Successfully made"
+                        android:text="@string/successfully_made"
                         android:textSize="14sp"
                         android:textColor="@color/success_color"
                         android:textStyle="bold"
@@ -194,6 +204,7 @@
 
             <!-- Notification Item 2 -->
             <androidx.cardview.widget.CardView
+                android:id="@+id/notificationCard2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
@@ -208,9 +219,10 @@
                     android:padding="16dp">
 
                     <TextView
+                        android:id="@+id/notificationMessage2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="The reservation for"
+                        android:text="@string/the_reservation_for"
                         android:textSize="16sp"
                         android:textColor="@android:color/black"
                         android:layout_marginBottom="12dp"/>
@@ -222,13 +234,15 @@
                         android:layout_marginBottom="8dp">
 
                         <TextView
+                            android:id="@+id/tableNoLabel2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Table No:"
+                            android:text="@string/table_no_colon"
                             android:textSize="14sp"
                             android:textColor="@android:color/darker_gray"/>
 
                         <TextView
+                            android:id="@+id/tableNoValue2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="01"
@@ -245,13 +259,15 @@
                         android:layout_marginBottom="8dp">
 
                         <TextView
+                            android:id="@+id/dateLabel2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Date:"
+                            android:text="@string/date_colon"
                             android:textSize="14sp"
                             android:textColor="@android:color/darker_gray"/>
 
                         <TextView
+                            android:id="@+id/dateValue2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="19/10/2025"
@@ -268,13 +284,15 @@
                         android:layout_marginBottom="12dp">
 
                         <TextView
+                            android:id="@+id/timeLabel2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Time:"
+                            android:text="@string/time_colon"
                             android:textSize="14sp"
                             android:textColor="@android:color/darker_gray"/>
 
                         <TextView
+                            android:id="@+id/timeValue2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="7:00pm"
@@ -285,9 +303,10 @@
                     </LinearLayout>
 
                     <TextView
+                        android:id="@+id/status2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Successfully made"
+                        android:text="@string/successfully_made"
                         android:textSize="14sp"
                         android:textColor="@color/success_color"
                         android:textStyle="bold"
@@ -298,6 +317,7 @@
 
             <!-- Notification Item 3 -->
             <androidx.cardview.widget.CardView
+                android:id="@+id/notificationCard3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
@@ -312,9 +332,10 @@
                     android:padding="16dp">
 
                     <TextView
+                        android:id="@+id/notificationMessage3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="The reservation for"
+                        android:text="@string/the_reservation_for"
                         android:textSize="16sp"
                         android:textColor="@android:color/black"
                         android:layout_marginBottom="12dp"/>
@@ -326,13 +347,15 @@
                         android:layout_marginBottom="8dp">
 
                         <TextView
+                            android:id="@+id/tableNoLabel3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Table No:"
+                            android:text="@string/table_no_colon"
                             android:textSize="14sp"
                             android:textColor="@android:color/darker_gray"/>
 
                         <TextView
+                            android:id="@+id/tableNoValue3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="05"
@@ -349,13 +372,15 @@
                         android:layout_marginBottom="8dp">
 
                         <TextView
+                            android:id="@+id/dateLabel3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Date:"
+                            android:text="@string/date_colon"
                             android:textSize="14sp"
                             android:textColor="@android:color/darker_gray"/>
 
                         <TextView
+                            android:id="@+id/dateValue3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="12/10/2025"
@@ -372,13 +397,15 @@
                         android:layout_marginBottom="12dp">
 
                         <TextView
+                            android:id="@+id/timeLabel3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Time:"
+                            android:text="@string/time_colon"
                             android:textSize="14sp"
                             android:textColor="@android:color/darker_gray"/>
 
                         <TextView
+                            android:id="@+id/timeValue3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="7:00pm"
@@ -389,9 +416,10 @@
                     </LinearLayout>
 
                     <TextView
+                        android:id="@+id/status3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Successfully made"
+                        android:text="@string/successfully_made"
                         android:textSize="14sp"
                         android:textColor="@color/success_color"
                         android:textStyle="bold"
@@ -399,8 +427,6 @@
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
-
-            <!-- Add more notification items as needed -->
 
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
@@ -438,7 +464,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Menu"
+                android:text="@string/menu"
                 android:textSize="12sp"
                 android:textColor="@android:color/darker_gray"
                 android:layout_marginTop="4dp"/>
@@ -465,7 +491,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Reservations"
+                android:text="@string/reservations"
                 android:textSize="12sp"
                 android:textColor="@android:color/darker_gray"
                 android:layout_marginTop="4dp"/>

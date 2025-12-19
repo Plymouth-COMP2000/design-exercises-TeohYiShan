@@ -62,4 +62,9 @@ dependencies {
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     implementation("com.google.android.material:material:1.11.0")
     implementation("androidx.core:core-ktx:1.12.0")
+
+    // Volley for API requests
+    implementation("com.android.volley:volley:1.2.1")
+    // For JSON parsing
+    implementation("com.google.code.gson:gson:2.10.1")
 }
