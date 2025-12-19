@@ -44,4 +44,4 @@ A comprehensive Android application for restaurant management with separate inte
 
  - **UI:** XML layouts with Material Design components
 
-Storage: SharedPreferences for settings
+ - **Storage:** SharedPreferences for settings
